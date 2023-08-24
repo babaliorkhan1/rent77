@@ -3,330 +3,388 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 .container{
     width: 1440px;
     margin: auto;
-    
-}
-
-.navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.container1{
-    width: 1140px;
-    height: 62px;
-    display: flex;
-    column-gap: 20px;
-    justify-content: center;
-    align-items: center;
 }
 
 .navbar1{
-background-color: coral;
-    height: 285px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
+    font-size: 36px;
+    color: orange;
 }
+
 .navbar2{
-    height: auto;
-
+    height: 141px;
     display: flex;
-    justify-content: center;
+justify-content: center;
     align-items: center;
 }
 
-.navbar1_top{
+.navbar22{
     width: 1083px;
     height: 141px;
-    margin-top: 60px;
-    border-radius: 12px;
-    box-shadow: 0px 4px 14px 5px #0000000D;
-background-color: white;
-display: flex;
-
-align-items: center;
-justify-content: space-around;
-
-
-}
-
-.navbar1_top div{
+   
     display: flex;
-    flex-direction: column;
-}
-.navbar1_top p{
-    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
-select{
-    width: 120px;
-    height: 40px;
+.navbar22 select{
     background-color: orange;
-    color: black;
     border-radius: 8px;
-    font-size: 20px;
+    padding: 8px;
+}
+
+.navbar22 >div p{
+    font-size: 22px;
+    color: orange;
 }
 
 .cards{
+    height: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-   
- 
-}
-.cards1{
     margin-top: 20px;
-    width: 1110px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
+
+  
+}
+
+.cards1{
+    width:1180px ;
+    display: flex;
+    gap: 15px;
+    display: flex;
     flex-wrap: wrap;
 }
 
 
-.card{
+.card1{
+    width: 280px;
+    height:350px ;
+    padding: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    box-shadow: rgba(7, 12, 46, 0.15) 0px 48px 100px 0px;
-    position: relative;
 }
+.card1 h2,span,p,h4{
+color: orange;
 
-.card >div{
+}
+.card1 div{
     display: flex;
-    flex-direction: column;
-    padding: 10px;
-   row-gap: 10px;
-
-
+    column-gap: 8px;
 }
-.card div div{
-display: flex;
-}
-
-.card1 button{
-    width: 60px;
-    height: 20px;
-    background-color: orange;
-    border-radius: 8px;
-}
-
-.card .absolute{
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    background-color: orange;
+.card1 a{
+    font-size: 22px;
+    text-decoration: none;
+    background-color: black;
+    color: orange;
     border-radius: 7px;
-    width: 70px;
-    height: 25px;
     display: flex;
     justify-content: center;
-    align-items: center;
-
 }
 
-@media screen and (max-width: 1040px) {
+
+@media screen and (max-width: 1190px){
     .container{
-      width: 780px;
-    }
-
-
-    .container1{
-        width: 780px;
-        height: 40px;
-        display: flex;
-        column-gap: 10px;
-        margin-bottom: 20px;
-        
+        width: 800px;
+        margin: auto;
     }
     
     .navbar1{
-        width: 780px;
-    background-color: coral;
-        height: 180px;
-        
+        text-align: center;
+        font-size: 24px;
+        color: orange;
     }
     
-    .navbar1_top{
-        width: 750px;
-        height: 120px;
-        margin-top: 40px;
-        border-radius: 12px;
-        box-shadow: 0px 4px 14px 5px #0000000D;
-    background-color: white;
-    display: flex;
-    
-    
-    
-    
-    }
-    
-    
-    .navbar1_top p{
-        font-size: 16px;
-    }
-    
-    select{
-        width: 80px;
-        height: 30px;
-  
-        font-size: 16px;
-    }
-    
-   
-    .cards1{
-        margin-top: 20px;
-        width: 750px;
-       
-        gap:5px;
-        
-    }
-    
-    
-    .card{
-      
-        gap:5px;
-       
-    }
-    
-    .card >div{
+    .navbar2{
+        height: 90px;
         display: flex;
-        flex-direction: column;
-        padding: 5px;
-       row-gap: 10px;
-    
-    
-    }
-   
-    
-    .card1 button{
-        width: 60px;
-        height: 20px;
-     font-size: 15px;
-        border-radius: 8px;
+    justify-content: center;
+        align-items: center;
     }
     
-    .card .absolute{
-        position: absolute;
-        top: 10px;
-        right: 5px;
+    .navbar22{
+        margin-top: 20px;
+        width: 690px;
+        height: 90px;
+       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        column-gap: 40px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    
+    .navbar22 select{
         background-color: orange;
-        border-radius: 7px;
-        width: 70px;
-        height: 25px;
+        border-radius: 8px;
+        padding: 8px;
+    }
+    
+    .navbar22 >div p{
+        font-size: 18px;
+        color: orange;
+    }
+    
+    .cards{
         display: flex;
         justify-content: center;
-        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+        
+    
+      
+    }
+    
+    .cards1{
+        width:700px;
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    .card1{
+        width: 165px;
+        height:240px ;
+        padding: 5px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        display: flex;
+      
+        flex-direction: column;
+    }
+    .card1 h2,span,p,h4{
+    color: orange;
     
     }
-
-}
-
-
-
-
-@media screen and (max-width: 780px) {
-    .container{
-      width: 560px;
+    .card1 div{
+        display: flex;
+        column-gap: 8px;
     }
-
-.navbar p{
-    font-size: 14px;
+    .card1 a{
+        font-size: 18px;
+        text-decoration: none;
+        background-color: black;
+        color: orange;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+    }
+    
 }
-    .container1{
-        width: 560px;
-        height: 30px;
+
+
+
+
+@media screen and (max-width: 800px){
+    .container{
+        width: 500px;
+        margin: auto;
+    }
+    
+    .navbar1{
+        text-align: center;
+        font-size: 18px;
+        color: orange;
+    }
+    
+    .navbar2{
+        height: 70px;
+        display: flex;
+    justify-content: center;
+        align-items: center;
+    }
+    
+    .navbar22{
+        width: 400px;
+        height: 70px;
+       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        column-gap: 20px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    
+    .navbar22 select{
+        background-color: orange;
+        border-radius: 8px;
+        padding: 5px;
+    }
+    
+    .navbar22 >div p{
+        font-size: 15px;
+        color: orange;
+    }
+    
+    .cards{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+       
+        
+    
+      
+    }
+    
+    .cards1{
+        width:400px;
+        gap: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    .card1{
+        width: 110px;
+        height:180px ;
+        padding: 5px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        display: flex;
+        flex-direction: column;
+    }
+    .card1 h2,span,p,h4{
+    color: orange;
+    
+    
+    }
+    .card1 h2{
+        font-size: 15px;
+    }
+    .card1 span{
+         font-size: 12px;
+    }
+    .card1 h4{
+        font-size: 13px;
+    }
+    .card1 div{
         display: flex;
         column-gap: 5px;
-        margin-bottom: 10px;
-        
+    }
+    .card1 a{
+        font-size: 12px;
+        text-decoration: none;
+        background-color: black;
+        color: orange;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 500px){
+    .container{
+        width: 300px;
+        margin: auto;
     }
     
     .navbar1{
-    
-    background-color: coral;
-        height: 150px;
-        
+        text-align: center;
+        font-size: 15px;
+        color: orange;
     }
     
-    .navbar1_top{
-        width: 560px;
-        height: 80px;
-        margin-top: 40px;
-        border-radius: 12px;
-        box-shadow: 0px 4px 14px 5px #0000000D;
-    background-color: white;
-    display: flex;
-    
-    
-    
-    
-    }
-    
-    
-    .navbar1_top p{
-        font-size: 14px;
-    }
-    
-    select{
-        width: 60px;
-        height: 20px;
-  
-        font-size: 14px;
-    }
-    
-   
-    .cards1{
-        margin-top: 10px;
-        width: 580px;
-       
-        gap:5px;
-        
-    }
-    
-    
-    .card{
-      
-        gap:5px;
-       
-    }
-    
-    .card >div{
+    .navbar2{
+        height: 50px;
         display: flex;
-        flex-direction: column;
-        padding: 5px;
-       row-gap: 5px;
-    
-    
-    }
-   
-    
-    .card1 button{
-        width: 45px;
-        height: 15px;
-     font-size: 15px;
-        border-radius: 8px;
+    justify-content: center;
+        align-items: center;
     }
     
-    .card .absolute{
-        position: absolute;
-        top: 10px;
-        right: 5px;
+    .navbar22{
+        width: 120px;
+        height: 30px;
+       
+        display: flex;
+       justify-content: center;
+        column-gap: 3px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    
+    .navbar22 select{
         background-color: orange;
-        border-radius: 7px;
-        width: 70px;
-        height: 25px;
+        border-radius: 4px;
+        padding:3px ;
+        width: 60px;
+        font-size: 11px;
+       
+    }
+    
+    
+    .navbar22 >div p{
+        font-size: 11px;
+        color: orange;
+    }
+    
+    .cards{
         display: flex;
         justify-content: center;
-        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+       
+        
+    
+      
+    }
+    
+    .cards1{
+        width:230px;
+        gap: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;    
+        align-items: center;    
+    }
+    
+    
+    .card1{
+        width: 90px;
+        height:170px ;
+        padding: 3px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        display: flex;
+        flex-direction: column;
+    }
+    .card1 h2,span,p,h4{
+    color: orange;
+    
     
     }
-
+    .card1 h2{
+        font-size: 11px;
+    }
+    .card1 span{
+         font-size: 9px;
+    }
+    .card1 h4{
+        font-size: 9px;
+    }
+    .card1 div{
+        display: flex;
+        column-gap: 3px;
+    }
+    .card1 a{
+        font-size: 10px;
+        text-decoration: none;
+        background-color: black;
+        color: orange;
+        border-radius: 4px;
+        display: flex;
+        justify-content: center;
+    }
+    
 }
