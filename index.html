@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./HomepaGE/style.css">
+ 
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+    <div class="navbar container">
+        <img src="../Images/image.svg" alt="">
+        <p>Baki Seh,Xocali Prospeskti 13</p>
+        <p>+994 (50) 4855143</p>
+        <p>babaliorkhan@gmail.com</p>
+ 
+        <img src="../Images/hamburger.svg" alt="">
+    </div>
+    <div class="navbar_top container">
+        <div> <h1 style="color: orange;">Ekonom Class</h1> <p>Premium Class Avtomobillerin kirayesi</p> <a href="../Final2/index.html"><button>Indi icare et</button></a> </div>
+   
+        <img src="../Images/car.svg" alt="">
+   
+        </div>
+        <div class="navbar_top1 container">
+            <div class="card">
+                <img src="../Images/Rectangle 245.png" alt="">
+                <div>Econom</div>
+            </div>
+            <div class="card">
+                <img src="./Images/Rectangle 245 (1).png" alt="">
+                <div>Econom</div>
+            </div>
+            <div class="card">
+                <img src="./Images/Rectangle 245 (3).png" alt="">
+                <div>Econom</div>
+            </div>
+            <div class="card">
+                <img src="./Images/Rectangle 245.png" alt="">
+                <div>Econom</div>
+            </div>
+            <div class="card">
+                <img src="./Images/Rectangle 245.png" alt="">
+                <div>Econom</div>
+            </div>
+        </div>
+        <div class="welcome_container container">
+            <img src="./Images/Mask Group.png" alt="">
+            <div>
+                <h1>Avtomobillerin kirayesi burda</h1>
+                <p>İstər xidmət səviyyəmiz, istərsə də yüksək keyfiyyətimizlə bir çox icarə maşıin şirkətlərdən seçilir.</p>
+                <p>Şirkət bu növ icarə maşınlar ilə məşğuldur: minik maşınlar, mikroavtobus və avtobusların (günlük, aylıq və uzunmüddətli).</p>
+                <p>Geniş avtoparkımız sizə Bakı və Azərbaycanda istənilən vaxt istənilən növ icarə maşın götürməyə imkan verir.</p>
+              
+           <button>Etrafli</button>
+            </div>
+        </div>
+        <div class="welcome_container1 container">
+            <h1>İcarəyə verilən avtomobillər (klass üzrə)</h1>
+            <div class="elements">
+                <a href="">Hamisi</a>
+                <a href="">Ekonom</a>
+                <a href="">Biznes</a>
+                <a href="">Premium</a>
+                <a href="">Crossover</a>
+                <a href="">Karavan</a>
+            </div>
+            <div class="cards1">
+                <div class="card1">
+                    <img src="./Images/Rectangle 245 (1).png" alt="">
+                    <h2>Toyota</h2>
+                    <h4>2021ci il</h4>
+                    <h2 style="color: orange;">75AZN/Gun</h2>
+                    <div class="last"><span>1.5l</span> <span>Auto</span> <span>Yanacag</span></div>
+                    <button>Etrafli</button>
+                </div>
+                <div class="card1">
+                    <img src="./Images/Rectangle 245 (3).png" alt="">
+                    <h2>Toyota</h2>
+                    <h4>2021ci il</h4>
+                    <h2 style="color: orange;">75AZN/Gun</h2>
+                    <div class="last"><span>1.5l</span> <span>Auto</span> <span>Yanacag</span></div>
+                    <button>Etrafli</button>
+                </div>
+                <div class="card1">
+                    <img src="./Images/Rectangle 245 (1).png" alt="">
+                    <h2>Toyota</h2>
+                    <h4>2021ci il</h4>
+                    <h2 style="color: orange;">75AZN/Gun</h2>
+                    <div class="last"><span>1.5l</span> <span>Auto</span> <span>Yanacag</span></div>
+                    <button>Etrafli</button>
+                </div>
+                <div class="card1">
+                    <img src="../Images/Rectangle 245.png" alt="">
+                    <h2>Toyota</h2>
+                    <h4>2021ci il</h4>
+                    <h2 style="color: orange;">75AZN/Gun</h2>
+                    <div class="last"><span>1.5l</span> <span>Auto</span> <span>Yanacag</span></div>
+                    <button>Etrafli</button>
+                </div>
+             
+            </div>
+            <div  class="button1"><button>Show All Cars</button></div>
+            <h1 style="color: orange;">Partners</h1>
+        </div>
+       
+        <div id="content-placeholder"></div>
+        <script>
+            fetch('carousel.html')
+                .then(response => response.text())
+                .then(content => {
+                    document.getElementById('content-placeholder').innerHTML = content;
+                });
+        </script>
+<h1  style="display: flex; justify-content: center;margin-top: 80px;" class="container">Need to know for car rent</h1>
+<div class="accordion accordion-flush container" id="accordionFlushExample">
+    
+    <div class="accordion-item">
+        
+      <h2 class="accordion-header" id="flush-headingOne">
+        
+        <button style="color: orange;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            How long do I need to have a driver's license to rent a car in Baku from AFN Transport?
+        </button>
+      </h2>
+      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+        <div  class="accordion-body">You must have a driver's license for at least 2 years to hire a car in Baku from AFN Transport.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingTwo">
+        <button  style="color: orange;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            I need some information about a car rent in Baku. Is there an age limit for renting a car from AFN Transport?
+        </button>
+      </h2>
+      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">The age limit for renting a car in Baku must be at least 24 years old.</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-headingThree">
+        <button  style="color: orange;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            What is the minimum deposit amount for booking a car from AFN Transport?
+        </button>
+      </h2>
+      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">The deposit amount for renting a car in Baku from AFN Transport is 200 AZN</div>
+      </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button  style="color: orange;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            What documents do I need to have to hire a car in Baku from AFN Transport?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">To book a car in Baku and Azerbaijan, you must have a driver's license and an identity card.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button  style="color: orange;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Can foreigners rent a car in Baku from AFN Transport?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Yes, you can book a car in Baku with a passport, a driver's license valid in all countries, provided you are 24 years old and have had a driver's license for more than 2 years.</div>
+        </div>
+      </div>
+  </div>
+  <div class="final container">
+    <img src="./Images/Rectangle 209.png" alt="">
+    <div class="final1">
+        <h1>Delivery of Rental cars</h1>
+        <p>AFN Transport offers to hire a car in Baku for more than 60 models. Due to such a number of a rental cars, you can choose a specific rental car that will suit you.</p>
+        <p>We have a choice to hire a car any price segment. The price for rent a car in Baku for economy class starts from $25 per day.</p>
+        <p>The advantage of long-term rental car in Baku is that the longer the car hire period, the lower the daily rental payment.</p>
+       
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white text-center text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Footer Content</h5>
+  
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+            voluptatem veniam, est atque cumque eum delectus sint!
+          </p>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+  
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Home</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Rental Cars</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Company</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Need To Know</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-0">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Premium</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Business</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Econom</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Karavan</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      
+  
+    </div>
+    <!-- Copyright -->
+  </footer>
+</body>
+</html>

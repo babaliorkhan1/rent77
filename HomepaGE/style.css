@@ -1,0 +1,716 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1138px;
+    margin: auto;
+}
+.navbar{
+display: flex;
+
+
+ 
+margin-bottom: 60px;
+margin-top: 20px;
+
+}
+.navbar p{
+    font-size: 16px;
+    display: inline;
+}
+.navbar_top >div{
+display: flex;
+justify-content: space-between;
+}
+.navbar_top>div>h1{
+   font-size: 50px;
+    text-align: center;
+    width: 200px;
+
+}
+
+.navbar_top>div>p{
+    font-size: 40px;
+    width: 300px;
+    
+ 
+ }
+ 
+ .navbar_top button{
+    border-radius: 8px;
+    width: 100px;
+    height: 90px;
+
+    background-color: orange;
+ }
+
+
+
+
+ .navbar_top1{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   column-gap: 10px;
+ }
+
+ .navbar_top1 .card img{
+    width: 100%;
+    height: 100%;
+
+ }
+ .navbar_top1 .card div{
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+
+ .welcome_container{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 40px;
+ }
+
+
+ .welcome_container div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+ }
+ .welcome_container div p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+ }
+ .welcome_container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .welcome_container img{
+   width: 500px;
+   height: 400px;
+ }
+ .welcome_container div button{
+    background-color: orange;
+     width: 200px;
+     height: 40px;
+     border-radius: 10px;
+ }
+
+ .welcome_container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+ }
+ .welcome_container1 .elements{
+    display: flex;
+    column-gap: 20px;
+ }
+
+ .welcome_container1 .elements a{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    border: 3px solid orange;
+    padding: 4px;
+    border-radius: 8px;
+ }
+
+ .welcome_container1 .cards1 .card1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    box-shadow: rgba(7, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 10px;
+    transition: 0.3s;
+ }
+
+
+ .welcome_container1 .cards1 {
+ 
+    display: flex;
+    row-gap: 15px;
+ }
+
+
+.last{
+    display: flex; 
+    column-gap: 15px;
+    flex-direction: row;
+ }
+ .last span{
+   font-size: 16px;
+ }
+
+ .card1:hover{
+   transform: scale(0.9);
+ }
+
+ .card1 button{
+    width: 60px;
+    height: 40px;
+    background-color: orange;
+    border-radius: 10px;
+    cursor: pointer;
+ }
+
+ .button1 button{
+   width: 100px;
+   height: 35px;
+   color: white;
+   border:  2px solid orange;
+   color: orange;
+   border-radius: 8px;
+ }
+.final{
+   display: flex;
+   column-gap: 40px;
+}
+.final img{
+   width: 653px;
+   height: 459px;
+}
+.final1 {
+   width: 808px;
+   height: 460px;
+}
+ .final1 p{
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 32px;
+
+ } 
+
+
+
+@media screen and (max-width: 1138px) {
+   .container{
+      width: 992px;
+   }
+   .navbar{
+      column-gap: 5px;
+
+   }
+   .navbar_top img{
+      width: 380px;
+      height: 230px;
+   }
+
+   .navbar_top div h1{
+      font-size: 20px;
+   }
+   .navbar_top div p{
+      font-size: 15px;
+   }
+   .navbar_top div button{
+      border-radius: 8px;
+      width: 70px;
+      height: 70px;
+   }
+   .navbar_top1 .card{
+width: 240px;
+height: 120px;
+   }
+   .navbar_top1 img{
+      width: 100%;
+      height: 100%;
+   }
+   .navbar_top1 .card div{
+     width: 100%;
+     height: 100%;
+    
+      
+   }
+   .welcome_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   
+   .welcome_container img{
+      width: 350px;
+      height: 270px;
+   }
+   .welcome_container div{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+   }
+   .welcome_container div p{
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 22px;
+   }
+   .welcome_container div h1{
+ font-size: 20px;
+   }
+   .welcome_container div button{
+      background-color: orange;
+       width: 150px;
+       height: 30px;
+       border-radius: 10px;
+   }
+   .welcome_container1 h1{
+      font-size: 20px;
+   } 
+   .welcome_container1 .cards1 .card1{
+     width: 180px;
+     height: 260px;
+     row-gap: 5px;
+    
+   }
+.welcome_container1 .cards1{
+   
+   display: flex;
+   flex-wrap: wrap;
+}
+   .welcome_container1 .cards1 .card1 h2:nth-child(2){
+      font-size: 20px;
+     
+    }
+    .welcome_container1 .cards1 .card1 h4{
+      font-size: 14px;
+     
+    }
+    .welcome_container1 .cards1 .card1 h2:nth-child(4){
+      font-size: 20px;
+     
+    }
+    .final img{
+      width: 430px;
+      height:280px ;
+    }
+
+    .final1 {
+      width: 580px;
+      height: 280px;
+   }
+   .final1 p{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+   }
+  
+  
+}
+
+
+
+@media screen and (max-width: 992px) {
+   .container{
+      width: 770px;
+   }
+   .navbar{
+      column-gap: 2px;
+   }
+.navbar img{
+   width: 36px;
+   height: 20px;
+}
+.navbar_top div button{
+   font-size: 11px;
+}
+   .navbar p{
+      font-size: 14px;
+      line-height: 22px;
+   }
+   .navbar_top img{
+      width: 220px;
+      height: 170px;
+   }
+
+   .navbar_top div h1{
+      font-size: 17px;
+   }
+   .navbar_top div p{
+      font-size: 14px;
+   }
+   .navbar_top div button{
+      border-radius: 8px;
+      width: 45px;
+      height: 45px;
+   }
+   .navbar_top1 .card{
+width: 190px;
+height: 95px;
+   }
+   .navbar_top1 img{
+      width: 100%;
+      height: 100%;
+   }
+   .navbar_top1 .card div{
+     width: 100%;
+     height: 100%;
+    
+      
+   }
+   .welcome_container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   
+   .welcome_container img{
+      width: 270px;
+      height: 220px;
+   }
+   .welcome_container div{
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+   }
+   .welcome_container div p{
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18px;
+   }
+   .welcome_container div h1{
+ font-size: 18px;
+   }
+   .welcome_container div button{
+      background-color: orange;
+       width: 100px;
+       height: 20px;
+       border-radius: 10px;
+       margin-bottom: 20px;
+   }
+   .welcome_container1 h1{
+      font-size: 17px;
+   } 
+   .welcome_container1 .cards1 .card1{
+     width: 140px;
+     height: 190px;
+     row-gap: 1px;
+    
+   }
+.welcome_container1 .cards1{
+   display: flex;
+   flex-wrap: wrap;
+}
+   .welcome_container1 .cards1 .card1 h2:nth-child(2){
+      font-size: 14px;
+     
+    }
+    .welcome_container1 .cards1 .card1 h4{
+      font-size: 12px;
+     
+    }
+    .welcome_container1 .cards1 .card1 h2:nth-child(4){
+      font-size: 12px;
+     
+    }
+    .welcome_container1 .cards1 .card1 button{
+      width: 52px;
+      height: 22px;
+      font-size: 12px;
+     
+    }
+    .last{
+      column-gap: 5px;
+      
+
+    }
+    .last span{
+      font-size: 12px;
+    }
+    .final img{
+      width: 330px;
+      height:180px ;
+    }
+
+    .final1 {
+      width: 490px;
+      height: 200px;
+   }
+   .final1 p{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+   }
+   
+  
+}
+
+
+
+
+@media screen and (max-width: 770px) {
+   .container{
+      width: 580px;
+   }
+   .navbar{
+      column-gap: 2px;
+   }
+.navbar img{
+   width: 24px;
+   height: 16px;
+}
+.navbar_top div button{
+   font-size: 9px;
+}
+   .navbar p{
+      font-size: 13px;
+      line-height: 17px;
+   }
+   .navbar_top img{
+      width: 170px;
+      height: 120px;
+   }
+
+   .navbar_top div h1{
+      font-size: 14px;
+   }
+   .navbar_top div p{
+      font-size: 12px;
+   }
+   .navbar_top div button{
+      border-radius: 8px;
+      width: 35px;
+      height: 37px;
+   }
+ 
+   .navbar_top1 .card{
+width: 150px;
+height: 70px;
+   }
+   .navbar_top1 img{
+      width: 100%;
+      height: 100%;
+   }
+   .navbar_top1 .card div{
+     width: 100%;
+     height: 100%;
+    
+      
+   }
+  
+   
+   .welcome_container img{
+      width: 230px;
+      height: 180px;
+   }
+ 
+   .welcome_container div p{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+   }
+   .welcome_container div h1{
+ font-size: 15px;
+ margin-top: 30px;
+   }
+   .welcome_container div button{
+      background-color: orange;
+       width: 70px;
+       height: 15px;
+       border-radius: 10px;
+       margin-bottom: 20px;
+       font-size: 12px;
+   }
+   .welcome_container1 h1{
+      font-size: 15px;
+   } 
+   .welcome_container1 .cards1 .card1{
+     width: 110px;
+     height: 160px;
+     row-gap: 1px;
+    
+   }
+
+   .welcome_container1 .cards1 .card1 h2:nth-child(2){
+      font-size: 12px;
+     
+    }
+    .welcome_container1 .cards1 .card1 h4{
+      font-size: 10px;
+     
+    }
+    .welcome_container1 .cards1 .card1 h2:nth-child(4){
+      font-size: 12px;
+     
+    }
+    .welcome_container1 .cards1 .card1 button{
+      width:40px;
+      height: 18px;
+      font-size: 12px;
+     
+    }
+    .last{
+      column-gap: 5px;
+      
+
+    }
+    .last span{
+      font-size: 12px;
+    }
+    .final img{
+      width: 280px;
+      height:100px ;
+    }
+.final{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+    .final1 {
+      width: 490px;
+      height: 200px;
+   }
+   .final1 p{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+   }
+   
+  
+  
+  
+}
+
+
+
+
+@media screen and (max-width: 580px) {
+   .container{
+      width: 300px;
+   }
+   .navbar{
+      column-gap: 2px;
+   }
+.navbar img{
+   width: 16px;
+   height: 14px;
+}
+.navbar_top div button{
+   font-size: 7px;
+}
+   .navbar p{
+      font-size: 13px;
+      line-height: 17px;
+   }
+   .navbar_top img{
+      width: 130px;
+      height: 90px;
+   }
+
+   .navbar_top div h1{
+      font-size: 12px;
+   }
+   .navbar_top div p{
+      font-size: 10px;
+   }
+   .navbar_top div button{
+      border-radius: 8px;
+      width: 25px;
+      height: 27px;
+   }
+ 
+   .navbar_top1 .card{
+width: 70px;
+height: 40px;
+   }
+   .navbar_top1 img{
+      width: 100%;
+      height: 100%;
+   }
+   .navbar_top1 .card div{
+     width: 100%;
+     height: 100%;
+    
+      
+   }
+  
+   
+   .welcome_container img{
+      width: 160px;
+      height: 130px;
+   }
+ 
+   .welcome_container div p{
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 16px;
+   }
+   .welcome_container div h1{
+ font-size: 12px;
+ margin-top: 20px;
+   }
+   .welcome_container div button{
+      background-color: orange;
+       width: 70px;
+       height: 15px;
+       border-radius: 10px;
+       margin-bottom: 20px;
+       font-size: 12px;
+   }
+   .welcome_container1 h1{
+      font-size: 13px;
+   } 
+   .welcome_container1 .cards1 .card1{
+     width: 110px;
+     height: 160px;
+     row-gap: 1px;
+    
+   }
+
+   .welcome_container1 .cards1 .card1 h2:nth-child(2){
+      font-size: 12px;
+     
+    }
+    .welcome_container1 .cards1 .card1 h4{
+      font-size: 10px;
+     
+    }
+    .welcome_container1 .cards1 .card1 h2:nth-child(4){
+      font-size: 12px;
+     
+    }
+    .welcome_container1 .cards1 .card1 button{
+      width:40px;
+      height: 18px;
+      font-size: 12px;
+     
+    }
+    .last{
+      column-gap: 5px;
+      
+
+    }
+    .last span{
+      font-size: 12px;
+    }
+    .final img{
+      width: 280px;
+      height:100px ;
+    }
+.final{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+    .final1 {
+      width: 400px;
+      height: 180px;
+   }
+   .final1 p{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+   }
+   
+  
+  
+  
+}
